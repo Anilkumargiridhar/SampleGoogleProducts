@@ -1,0 +1,176 @@
+body {
+    margin: 0 auto;
+}
+.trans {
+    background-color: transparent !important;
+}
+.log {
+    border-radius: 10px;
+    padding: 7px;
+    width: 80px;
+}
+.googleLogo {
+    width: 90px;
+    height: auto;
+}
+.navEffect:hover {
+    border-bottom: 2px solid #00F;
+}
+.slideHeight {
+    height: 650px !important;
+}
+.pro {
+    margin-top: -610px !important;
+}
+.sea {
+    width: 500px !important;
+    height: 50px;
+    margin-top: -600px !important;
+}
+.bttn {
+    height: 50px;
+    margin-top: -600px !important;
+}
+.look {
+    margin-top: -700px;
+}
+.some {
+    margin-top: -800px;
+    color: #FFF;
+}
+.thing {
+    color: #00F;
+}
+.sec {
+    height: 700px;
+}
+.exp {
+    text-align: center;
+}
+.card-img-top {
+    height: 300px !important;
+}
+.card {
+    height: 500px !important;
+    -webkit-box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 33px -8px rgba(0,0,0,0.75);
+}
+.card:hover {
+    transform: scale(1.05);
+}
+.row-equal > div[class*='col-'] {
+    display: flex;
+    flex: 1 0 auto;
+}
+.row-equal .card {
+   width: 100%;
+}
+.carousel-inner>.row-equal.active, 
+.carousel-inner>.row-equal.next, 
+.carousel-inner>.row-equal.prev {
+    display: flex;
+}
+.carousel-inner>.row-equal.active.left, 
+.carousel-inner>.row-equal.active.right {
+    opacity: 0.5;
+    display: flex;
+}
+.card-img-top-250 {
+    max-height: 250px;
+    overflow:hidden;
+}
+.card-header{
+    color:hsl(210, 100%, 56%);
+}
+.products {
+    height: 2000px;
+}
+.you {
+    width: 700px;
+    height: 400px;
+    filter: brightness(70%);
+}
+.you:hover {
+    filter: brightness(30%);
+    transition: all 1s ease 0s;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+}
+.but {
+    font-size: 20px;
+    font-weight: 500px;
+}
+.but:hover {
+    text-decoration: none;
+}
+.view {
+    padding: 40px !important;
+}
+.footer {
+    background-color: #f8f9fa;
+    height: 200px;
+}
+.ico {
+    color: #000;
+}
+.ico:hover {
+    color: #000;
+    text-decoration: none;
+}
+.navi {
+    list-style: none;
+}
+
+
+@media only screen and (min-width:842px) and (max-width:923.99px) {
+    .sea {
+        width: 400px !important;
+        height: 50px;
+        margin-top: -550px !important;
+    }
+    .bttn {
+        height: 50px;
+        margin-top: -550px !important;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:841.99px) {
+    .sea {
+        width: 200px !important;
+        height: 50px;
+        margin-top: -550px !important;
+    }
+    .bttn {
+        height: 50px;
+        margin-top: -550px !important;
+    }
+    .sec {
+        height: 1600px;
+    }
+    .you {
+        width: 450px;
+        height: 200px;
+    }
+}
+@media only screen and (max-width:575.99px) {
+    .sea {
+        width: 200px !important;
+        height: 50px;
+        margin-top: -500px !important;
+    }
+    .bttn {
+        height: 50px;
+        margin-top: -390px !important;
+    }
+    .you {
+        width: 350px;
+        height: 150px;
+    }
+}
+@media only screen and (max-width:575.99px) {
+    .sec {
+        height: 1650px;
+    }
+}
